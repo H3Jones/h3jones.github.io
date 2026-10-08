@@ -25,20 +25,27 @@
     "href": "index.html",
     "title": "Hugh E. Jones",
     "section": "",
-    "text": "I am passionate about using my data and analytical science skills to process and analyse large datasets.\nI successfully defended my PhD thesis in December last year (2022) and I am now working for a Fintech start-up\nThe focus of my PhD research was the study of base oils and other complex mixtures by Fourier transform ion cyclotron resonance (FTICR) mass spectrometry (MS).\nIn addition to my research, I developed both new R routines and applications (see some here), to support both my own and colleagues research activities, as well as the maintenance and continual development of critical software tools used by the wider research group."
+    "text": "Senior software engineer with a scientific and analytical background. I build reliable APIs, data pipelines, and performance-critical services across cloud-native and full-stack environments, using Python, Rust, and Go. Before moving into software engineering, I completed a PhD in Analytical Science focused on studying base oils and other complex mixtures using Fourier transform ion cyclotron resonance mass spectrometry. During my research, I developed R and C++ tools for analysing scientific data. You can find some of my earlier work on the projects page."
   },
   {
     "objectID": "index.html#about-me",
     "href": "index.html#about-me",
     "title": "Hugh E. Jones",
     "section": "",
-    "text": "I am passionate about using my data and analytical science skills to process and analyse large datasets.\nI successfully defended my PhD thesis in December last year (2022) and I am now working for a Fintech start-up\nThe focus of my PhD research was the study of base oils and other complex mixtures by Fourier transform ion cyclotron resonance (FTICR) mass spectrometry (MS).\nIn addition to my research, I developed both new R routines and applications (see some here), to support both my own and colleagues research activities, as well as the maintenance and continual development of critical software tools used by the wider research group."
+    "text": "Senior software engineer with a scientific and analytical background. I build reliable APIs, data pipelines, and performance-critical services across cloud-native and full-stack environments, using Python, Rust, and Go. Before moving into software engineering, I completed a PhD in Analytical Science focused on studying base oils and other complex mixtures using Fourier transform ion cyclotron resonance mass spectrometry. During my research, I developed R and C++ tools for analysing scientific data. You can find some of my earlier work on the projects page."
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Hugh E. Jones",
+    "section": "Experience",
+    "text": "Experience\n\nSenior Software Engineer (Cloud & Systems) | SkyLift UAV\nFebruary 2026 – October 2026\n\nDeliver software for heavy-lift UAV systems, spanning embedded Rust/Linux, Go backend services, and TypeScript interfaces.\nImprove service reliability and integration quality with API contracts, automated tests, telemetry analysis, and on-device monitoring.\n\n\n\nSenior Engineer 1 | Accuria\nMarch 2025 – January 2026\n\nDelivered full-stack features across a React/TypeScript application and FastAPI backend, as well as Python and Rust services and AWS Lambda functions.\nLed the migration of data workflows to Argo Workflows and improved Kubernetes delivery with Argo CD and Terraform.\n\n\n\nDeveloper | Accuria\nJune 2023 – March 2025\n\nLed development projects, mentored engineers, reviewed technical work, and collaborated with clients and colleagues across business functions.\nBuilt data-processing tools and improved analytical query and regulatory-reporting performance.\n\n\n\nJunior Developer | Accuria\nOctober 2022 – June 2023\n\nDeveloped data pipelines and modularised a full-stack R Shiny application for client regulatory reporting."
   },
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
     "title": "Hugh E. Jones",
     "section": "Education",
-    "text": "Education\nSeptember 2018 - 2022 | PhD in Analytical Science | University of Warwick\nSeptember 2014 - June 2018 | Master of Chemistry (MChem) 2:1 | University of Warwick"
+    "text": "Education\n\nPhD in Analytical Science | University of Warwick\nSeptember 2018 – October 2022\nDeveloped R and C++ applications to process and visualise complex mass-spectrometry datasets, and contributed to more than ten peer-reviewed publications.\n\n\nMaster of Chemistry (MChem) | University of Warwick\nSeptember 2014 – June 2018"
   }
 ]

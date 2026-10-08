@@ -14,22 +14,46 @@ about:
 
 ## About me
 
-I am passionate about using my data and analytical science skills
-to process and analyse large datasets.
+Senior software engineer with a scientific and analytical background. I build reliable APIs, data pipelines, and performance-critical services across cloud-native and full-stack environments, using Python, Rust, and Go. 
+Before moving into software engineering, I completed a PhD in Analytical Science focused on studying base oils and other complex mixtures using Fourier transform ion cyclotron resonance mass spectrometry. During my research, I developed R and C++ tools for analysing scientific data. You can find some of my earlier work on the [projects page](projects.qmd).
 
-I successfully defended my PhD thesis in December last year (2022) and I am now working for a Fintech start-up
+## Experience
 
-The focus of my PhD research was the study of base oils
-and other complex mixtures by Fourier transform ion cyclotron resonance (FTICR)
-mass spectrometry (MS).
+### Senior Software Engineer (Cloud & Systems) | SkyLift UAV
 
-In addition to my research, I developed both new R
-routines and applications ([see some here](projects.qmd)), to support both my own and colleagues research
-activities, as well as the maintenance and continual development of critical
-software tools used by the wider research group.
+*February 2026 – October 2026*
+
+- Deliver software for heavy-lift UAV systems, spanning embedded Rust/Linux, Go backend services, and TypeScript interfaces.
+- Improve service reliability and integration quality with API contracts, automated tests, telemetry analysis, and on-device monitoring.
+
+### Senior Engineer 1 | Accuria
+
+*March 2025 – January 2026*
+
+- Delivered full-stack features across a React/TypeScript application and FastAPI backend, as well as Python and Rust services and AWS Lambda functions.
+- Led the migration of data workflows to Argo Workflows and improved Kubernetes delivery with Argo CD and Terraform.
+
+### Developer | Accuria
+
+*June 2023 – March 2025*
+
+- Led development projects, mentored engineers, reviewed technical work, and collaborated with clients and colleagues across business functions.
+- Built data-processing tools and improved analytical query and regulatory-reporting performance.
+
+### Junior Developer | Accuria
+
+*October 2022 – June 2023*
+
+- Developed data pipelines and modularised a full-stack R Shiny application for client regulatory reporting.
 
 ## Education
 
-September 2018 - 2022 | PhD in Analytical Science | University of Warwick
+### PhD in Analytical Science | University of Warwick
 
-September 2014 - June 2018 | Master of Chemistry (MChem) 2:1 | University of Warwick
+*September 2018 – October 2022*
+
+Developed R and C++ applications to process and visualise complex mass-spectrometry datasets, and contributed to more than ten peer-reviewed publications.
+
+### Master of Chemistry (MChem) | University of Warwick
+
+*September 2014 – June 2018*
