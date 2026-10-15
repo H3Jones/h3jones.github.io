@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - tools/ms-wasm/*
 
 website:
   title: "Hugh E. Jones"
@@ -9,6 +11,10 @@ website:
       - href: index.qmd
         text: Home
       - projects.qmd
+      - text: Tools
+        menu:
+          - text: Ion mass calculator
+            href: tools/ion-calculator.qmd
       - about.qmd
 
 format:
