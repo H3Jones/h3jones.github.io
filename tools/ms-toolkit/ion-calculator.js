@@ -1,4 +1,4 @@
-import { n as e, r as t, t as n } from "./core-CAR-I3h0.js";
+import { n as e, r as t, t as n } from "./core-Cd9Qw8-B.js";
 //#region src/elements/ion-calculator.ts
 var r = document.createElement("template");
 r.innerHTML = "\n  <style>\n    :host { display: block; font: inherit; }\n    form { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: end; }\n    label { display: grid; gap: 0.25rem; font-size: 0.85em; }\n    input { padding: 0.4rem; font: inherit; }\n    button { padding: 0.45rem 1rem; font: inherit; }\n    .error { color: #b91c1c; }\n    table { border-collapse: collapse; margin-top: 1rem; }\n    th, td { padding: 0.25rem 0.75rem; text-align: right; border-bottom: 1px solid #ddd; }\n    th:first-child, td:first-child { text-align: left; }\n  </style>\n  <form part=\"form\">\n    <label>Formula <input name=\"formula\" value=\"C6H12O6\" required></label>\n    <label>Charge <input name=\"charge\" type=\"number\" min=\"-255\" max=\"255\" step=\"1\" value=\"1\" required></label>\n    <button type=\"submit\">Calculate</button>\n  </form>\n  <div part=\"result\" aria-live=\"polite\"></div>\n";

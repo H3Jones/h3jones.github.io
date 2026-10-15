@@ -1,4 +1,4 @@
-import { r as e, t } from "./core-CAR-I3h0.js";
+import { r as e, t } from "./core-Cd9Qw8-B.js";
 //#region src/elements/mass-split.ts
 var n = document.createElement("template");
 n.innerHTML = "\n  <style>\n    :host { display: block; font: inherit; }\n    form { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: end; }\n    label { display: grid; gap: 0.25rem; font-size: 0.85em; }\n    input { padding: 0.4rem; font: inherit; }\n    button { padding: 0.45rem 1rem; font: inherit; }\n    .result { display: grid; gap: 0.25rem; margin-top: 1rem; }\n    .error { color: #b91c1c; }\n  </style>\n  <form part=\"form\">\n    <label for=\"formula-a\">Formula A</label>\n    <input id=\"formula-a\" name=\"formulaA\" value=\"C14H23S\" required>\n    <label for=\"formula-b\">Formula B</label>\n    <input id=\"formula-b\" name=\"formulaB\" value=\"C17H19\" required>\n    <button type=\"submit\">Calculate difference</button>\n  </form>\n  <div class=\"result\" part=\"result\" aria-live=\"polite\"></div>\n";

@@ -249,7 +249,7 @@ var M;
 function N() {
 	return M ??= d(new Worker(new URL(
 		/* @vite-ignore */
-		"./assets/worker-DVZmjt-T.js",
+		new URL("assets/worker-DVZmjt-T.js", import.meta.url).href,
 		"" + import.meta.url
 	), { type: "module" })), M;
 }
