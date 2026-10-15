@@ -1,0 +1,11 @@
+---
+title: "Mass difference"
+toc: false
+---
+
+Compare the masses of two formulas, running entirely in your browser via WebAssembly ([MassSpecToolkit](https://github.com/H3Jones/MassSpecToolkit)).
+
+```{=html}
+<script type="module" src="ms-toolkit/mass-split.js"></script>
+<ms-mass-split formula-a="C14H23S" formula-b="C17H19"></ms-mass-split>
+```

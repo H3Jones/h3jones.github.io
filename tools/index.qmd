@@ -5,3 +5,4 @@ title: "Tools"
 Browser-based tools built from my own software.
 
 - [Ion mass calculator](ion-calculator.qmd): compute ion properties from a formula and charge.
+- [Mass difference](mass-split.qmd): compare the masses of two formulas.
