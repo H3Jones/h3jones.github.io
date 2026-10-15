@@ -6,43 +6,6 @@ toc: false
 Calculate ion properties from a chemical formula and charge, running entirely in your browser via WebAssembly ([MassSpecToolkit](https://github.com/H3Jones/MassSpecToolkit)).
 
 ```{=html}
-<form id="formula-form" class="d-flex flex-wrap gap-2 align-items-center">
-  <label for="formula">Chemical formula</label>
-  <input id="formula" name="formula" class="form-control w-auto" value="C6H12O6" required />
-  <label for="charge">Charge</label>
-  <input id="charge" name="charge" class="form-control w-auto" type="number" min="-255" max="255" step="1" value="1" required />
-  <button id="calculate" type="submit" class="btn btn-primary" disabled>Calculate</button>
-</form>
-<pre id="result" class="mt-3" aria-live="polite">Loading WebAssembly…</pre>
-
-<script type="module">
-  import init, { evaluate_ion } from "./ms-wasm/ms_wasm.js";
-
-  const form = document.querySelector("#formula-form");
-  const formulaInput = document.querySelector("#formula");
-  const chargeInput = document.querySelector("#charge");
-  const calculateButton = document.querySelector("#calculate");
-  const result = document.querySelector("#result");
-
-  try {
-    await init();
-    calculateButton.disabled = false;
-    result.textContent = "Enter a formula and select Calculate.";
-  } catch (error) {
-    result.textContent = `Unable to load the WebAssembly module: ${String(error)}`;
-  }
-
-  form.addEventListener("submit", (event) => {
-    event.preventDefault();
-    try {
-      result.textContent = JSON.stringify(
-        evaluate_ion(formulaInput.value, chargeInput.valueAsNumber),
-        null,
-        2,
-      );
-    } catch (error) {
-      result.textContent = `Could not evaluate ion: ${String(error)}`;
-    }
-  });
-</script>
+<script type="module" src="ms-toolkit/ion-calculator.js"></script>
+<ms-ion-calculator formula="C6H12O6" charge="1"></ms-ion-calculator>
 ```

@@ -1,31 +1,17 @@
 [
   {
-    "objectID": "tools/ion-calculator.html",
-    "href": "tools/ion-calculator.html",
-    "title": "Ion mass calculator",
+    "objectID": "tools/mass-split.html",
+    "href": "tools/mass-split.html",
+    "title": "Mass difference",
     "section": "",
-    "text": "Calculate ion properties from a chemical formula and charge, running entirely in your browser via WebAssembly (MassSpecToolkit).\n\n  Chemical formula\n  \n  Charge\n  \n  Calculate\n\nLoading WebAssembly…"
+    "text": "Compare the masses of two formulas, running entirely in your browser via WebAssembly (MassSpecToolkit)."
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
+    "objectID": "tools/index.html",
+    "href": "tools/index.html",
+    "title": "Tools",
     "section": "",
-    "text": "Here are some of the projects I have worked on during my PhD and spare time"
-  },
-  {
-    "objectID": "projects.html#shiny-applications",
-    "href": "projects.html#shiny-applications",
-    "title": "Projects",
-    "section": "Shiny applications",
-    "text": "Shiny applications\n\nCalibration Helper - An application to construct calibration lists for use with mass spectrometry data. Live version here\nMethod Digester - An application to read Bruker .method (XML) files for FTICR mass spectrometers. Live version here\nKendrick Mass Defect Tool - An application to plot a Kendrick mass defect (KMD) plot. Live version here\nVKSim - An application to simulate various reactions on a van Krevelen diagram. Live version here\nInterLabStudy - Tool to compare DOM data from various laboratories to a standard molecular assignment. More details can be found on the InterLabStudy GitHub page"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "Website built using Quarto"
+    "text": "Browser-based tools built from my own software.\n\nIon mass calculator: compute ion properties from a formula and charge.\nMass difference: compare the masses of two formulas."
   },
   {
     "objectID": "index.html",
@@ -56,10 +42,31 @@
     "text": "Education\n\nPhD in Analytical Science | University of Warwick\nSeptember 2018 – October 2022\nDeveloped R and C++ applications to process and visualise complex mass-spectrometry datasets, and contributed to more than ten peer-reviewed publications.\n\n\nMaster of Chemistry (MChem) | University of Warwick\nSeptember 2014 – June 2018"
   },
   {
-    "objectID": "tools/index.html",
-    "href": "tools/index.html",
-    "title": "Tools",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Browser-based tools built from my own software.\n\nIon mass calculator: compute ion properties from a formula and charge."
+    "text": "Website built using Quarto"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Here are some of the projects I have worked on during my PhD and spare time"
+  },
+  {
+    "objectID": "projects.html#shiny-applications",
+    "href": "projects.html#shiny-applications",
+    "title": "Projects",
+    "section": "Shiny applications",
+    "text": "Shiny applications\n\nCalibration Helper - An application to construct calibration lists for use with mass spectrometry data. Live version here\nMethod Digester - An application to read Bruker .method (XML) files for FTICR mass spectrometers. Live version here\nKendrick Mass Defect Tool - An application to plot a Kendrick mass defect (KMD) plot. Live version here\nVKSim - An application to simulate various reactions on a van Krevelen diagram. Live version here\nInterLabStudy - Tool to compare DOM data from various laboratories to a standard molecular assignment. More details can be found on the InterLabStudy GitHub page"
+  },
+  {
+    "objectID": "tools/ion-calculator.html",
+    "href": "tools/ion-calculator.html",
+    "title": "Ion mass calculator",
+    "section": "",
+    "text": "Calculate ion properties from a chemical formula and charge, running entirely in your browser via WebAssembly (MassSpecToolkit)."
   }
 ]
