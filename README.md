@@ -11,12 +11,6 @@ automatically. Pull requests run the same render without deploying.
 The workflow can also be run manually on `master` from the Actions tab.
 Generated `_site/` and legacy `docs/` output should not be committed.
 
-**One-time setup:** in repository **Settings > Pages > Build and deployment**,
-select **GitHub Actions** as the source when adopting this workflow. The old
-configuration served `master`'s `docs/` directory. After merging the workflow,
-check its deployment in the Actions tab; rerun it if needed after changing the
-Pages setting. No personal access token is required.
-
 ## Local preview
 
 Install Quarto 1.4.551 (the version pinned in the workflow), then run
@@ -34,9 +28,13 @@ Until package-release downloads are integrated, sync a local toolkit build:
 uv run scripts\sync_toolkit.py --toolkit C:\path\to\MassSpecToolkit --build
 ```
 
-If Rust changed, rebuild the toolkit's wasm before running this command.
-Alternatively, omit `--build` to copy an existing build, or set
-`MS_TOOLKIT_PATH` instead of supplying `--toolkit`.
+`--build` runs the toolkit build (including Wasm generation) and its browser
+ESM build. To sync an existing browser build instead, omit `--build`; it uses
+`dist/browser/`. Set `MS_TOOLKIT_PATH` instead of supplying `--toolkit` if
+preferred.
 
-Commit the updated `tools/ms-toolkit/` assets. Publishing does not require a
-local Quarto render or committing generated HTML.
+The sync copies the complete browser ESM distribution (including chunks and
+worker/Wasm assets) while leaving package declaration files out. Without
+`--build`, it uses an existing `dist/browser/` build. Commit the updated
+`tools/ms-toolkit/` assets. Publishing does not require a local Quarto render or
+committing generated HTML.
