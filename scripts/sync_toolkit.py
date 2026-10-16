@@ -61,7 +61,7 @@ def main() -> None:
             sys.exit(f"error: {core.name} uses a root-relative worker path; set base './' in the toolkit")
 
     print(f"Synced {len(scripts)} files from {dist} to {DEST.relative_to(SITE_ROOT)}")
-    print("Next: render with quarto (outside a dot-folder path), then commit tools/ and docs/.")
+    print("Next: commit tools/. GitHub Actions renders and publishes when merged to master.")
 
 
 if __name__ == "__main__":

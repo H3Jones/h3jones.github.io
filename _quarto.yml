@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: docs
+  output-dir: _site
   resources:
     - tools/ms-toolkit/**
 
@@ -26,4 +26,3 @@ format:
     toc: true
 
 editor: visual
-
